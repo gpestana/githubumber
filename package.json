@@ -1,0 +1,32 @@
+{
+  "name": "githubumber",
+  "version": "0.0.1",
+  "description": "scraps any public github for its latest stats",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint **.js",
+    "start": "npm run lint && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NorthImpact/githubumber.git"
+  },
+  "keywords": [
+    "github",
+    "pulse",
+    "stats"
+  ],
+  "author": "gpestana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NorthImpact/githubumber/issues"
+  },
+  "homepage": "https://github.com/NorthImpact/githubumber",
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.65.0"
+  }
+}
