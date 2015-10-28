@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "jshint **.js",
-    "start": "npm run lint && node index.js"
+    "test": "node ./tests/index.js",
+    "try": "npm run lint && node index.js",
+    "start": "npm run lint && npm test && node index.js"
   },
   "repository": {
     "type": "git",
